@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel App</title>
+</head>
+
+<body>
+    <header>
+        <h1>Travel App</h1>
+    </header>
+    <main>
+        <section class="form-search">
+            <h4>Enter your location: </h4>
+            <form>
+                <input id="location" type="text" name="location" value="NewYork" placeholder="Enter a location">
+                <input type="date" id="date" name="date" value="2023-08-01">
+                <input type="submit" class="button" value="Check Weather" onclick="return Client.handleSubmit(event)"
+                    onsubmit="return Client.handleSubmit(event)">
+                <input type="button" class="button" id="clear-storage" value="Clear Storage">
+            </form>
+        </section>
+        <div class="flex-container container" id="table">
+        </div>
+    </main>
+    <footer class="container padding-10">
+        <p>Copyright &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

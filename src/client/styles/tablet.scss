@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .flex-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .flex-container > div {
+    width: 50%;
+  }
+
+  .form-search {
+    width: 50%;
+    margin: auto;
+  }
+}

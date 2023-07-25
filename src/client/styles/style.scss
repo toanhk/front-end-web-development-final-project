@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  padding: 20px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #d1d1d1;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+}
+
+.padding-10 {
+  padding: 10px 0;
+}
+
+a {
+  color: #299ecc;
+  padding: 10px 0;
+}
+
+.svg-icon.search-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+/* On hover: blue strokes */
+
+.search-icon:hover {
+  .search-path {
+    stroke: #299ecc;
+  }
+}
+
+.profile {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.author-profession {
+  padding-bottom: 10px;
+  font-size: 14px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #0078d7;
+}
+
+.widget {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 40px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* form */
+input {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+form button {
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.content {
+  text-align: justify;
+}
+
+.button {
+  border: 1px solid #e0e0e0;
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.post-permalink a {
+  position: relative;
+  display: inline-block;
+  border: 2px solid #e0e0e0;
+  padding: 10px 30px;
+  text-transform: capitalize;
+  -webkit-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.post-permalink a:hover {
+  background-color: #0078d7;
+  color: white;
+  -webkit-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s;
+}
+
+.main-nav {
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0 10px;
+}
+
+.main-menu {
+  list-style: none;
+}
+
+.main-menu-items {
+  padding: 0 10px;
+  font-weight: 500;
+}
+
+.main-menu-items a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.main-menu-items a:hover {
+  color: #163291;
+}
+
+.form-search {
+  width: 100%;
+}
